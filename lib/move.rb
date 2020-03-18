@@ -13,7 +13,7 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def move(board, index, value = "X")
-  board[0] = value
+  board[ " ", " ", " "] = value
 end
 
 move(board, 0, "X")
