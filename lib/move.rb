@@ -12,5 +12,5 @@ input.to_i - 1
 end
 
 def move(array, index, value = "X")
-board[index] = value
+array[index] = value
 end
